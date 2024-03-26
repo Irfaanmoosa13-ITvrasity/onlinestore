@@ -1,0 +1,72 @@
+.gallery img{
+    width: 100%;
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: darkcyan;
+    font-style: italic;
+}
+
+h4{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: darkcyan;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu a{
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 800;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    #menu a:hover{
+        color: #5077bd;
+    }
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.product{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart-btn{
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart{
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+}
+
+.cart-items{
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li{
+border-bottom: 1px solid #ddd;
+padding: 8px;
+}
